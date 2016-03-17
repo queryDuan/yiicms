@@ -33,5 +33,8 @@
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         }
+    },
+    "autoload":{
+        "classmap":["common/thirdLibs/Phpexcel/"]
     }
 }
