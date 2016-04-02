@@ -34,7 +34,7 @@
             "bower-asset-library": "vendor/bower"
         }
     },
-    "autoload":{
-        "classmap":["common/thirdLibs/Phpexcel/"]
+    "autoload": {
+        "classmap": ["common/thirdLibs/Phpexcel/"]
     }
 }

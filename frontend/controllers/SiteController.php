@@ -104,6 +104,9 @@ class SiteController extends Controller {
 //        die;
 //        var_dump(Yii::getAlias('@webroot'));
 //        var_dump(Yii::getAlias('@web'));
+//        echo '<pre>';
+//        var_dump(\Yii::$app->user);die;
+//        var_dump(\ReflectionClass::export(\Yii::$app->user));die;
         return $this->render('index');
     }
 
